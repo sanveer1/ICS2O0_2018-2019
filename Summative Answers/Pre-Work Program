@@ -1,0 +1,30 @@
+# Sanvir Summative Assignment
+
+import turtle # To import turtle
+
+BBB = turtle.Turtle()
+
+BBB.speed(0) # Set the speed of the result
+BBB.pencolor("") # Change the color of the image
+
+def image_result(): # User defined function
+    BBB.forward(200)
+    BBB.left(60)
+    BBB.forward(40)
+    BBB.right(120)
+    BBB.forward(100)
+    BBB.left(60)
+    BBB.penup()
+    BBB.setposition(0, 0)
+    BBB.pendown()
+    BBB.left(0.5)
+
+for i in range(720): # For Loop function
+    image_result() 
+    
+    
+    
+    
+    
+    
+URL: https://repl.it/@sanveer1/Summative-Turtle-design
